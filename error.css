@@ -1,0 +1,46 @@
+body
+{
+    margin-top: 40px;
+}
+
+.box
+{
+    width: 380px;
+    height: 120px;
+    border: 1px solid white;
+    background-color: rgb(217, 106, 106);
+    border-radius: 20px;
+    
+}
+
+.box p
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.box input[type = "submit"]
+{
+  border: 0;
+  background-color: blue;
+  color: white;
+  width: 190px;
+  height: 60px;
+  font-size: 17px;
+  cursor: pointer;
+  transform: 0,25s;
+}
+
+.box input[type = "submit"]:hover
+{
+    background-color: black;
+    color: gray;
+}
+
+.parg
+{
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+}
